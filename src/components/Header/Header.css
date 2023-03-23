@@ -1,0 +1,23 @@
+.menu{
+    background-color: lightseagreen;
+    padding: 15px;
+    width: 450px;
+    margin: 10px auto;
+    border-radius: 7px;
+}
+.menu a{
+    text-decoration: none;
+    margin: 10px 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    
+}
+
+@media only screen and (max-width: 576px) {
+    .menu{
+       width: 90%;
+       display: flex;
+       flex-direction: column;
+    }
+}

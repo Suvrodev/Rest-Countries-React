@@ -1,0 +1,30 @@
+.country{
+    margin: 20px;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 7px;
+}
+.Title{
+    background-color: green;
+    color: white;
+    padding: 7px;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 7px;
+}
+.img{
+    width: 200px;
+    margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .country{
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .img{
+        width: 70px;
+    }
+}
